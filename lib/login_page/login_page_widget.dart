@@ -124,7 +124,6 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                                                         fontFamily: 'Gotham',
                                                         fontWeight:
                                                             FontWeight.normal,
-                                                        useGoogleFonts: false,
                                                       ),
                                             ),
                                           ],
@@ -173,7 +172,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                                     labelStyle: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
-                                          fontFamily: 'Gotham',
+                                          fontFamily: 'gotham',
                                           color: Color(0x98FFFFFF),
                                           useGoogleFonts: false,
                                         ),
@@ -181,7 +180,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                                     hintStyle: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
-                                          fontFamily: 'Gotham',
+                                          fontFamily: 'gotham',
                                           color: Color(0x98FFFFFF),
                                           useGoogleFonts: false,
                                         ),
@@ -209,7 +208,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
-                                        fontFamily: 'Gotham',
+                                        fontFamily: 'gotham',
                                         color: FlutterFlowTheme.of(context)
                                             .textColor,
                                         useGoogleFonts: false,
@@ -227,7 +226,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                                     labelStyle: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
-                                          fontFamily: 'Gotham',
+                                          fontFamily: 'gotham',
                                           color: Color(0x98FFFFFF),
                                           useGoogleFonts: false,
                                         ),
@@ -235,7 +234,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                                     hintStyle: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
-                                          fontFamily: 'Gotham',
+                                          fontFamily: 'gotham',
                                           color: Color(0x98FFFFFF),
                                           useGoogleFonts: false,
                                         ),
@@ -276,7 +275,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
-                                        fontFamily: 'Gotham',
+                                        fontFamily: 'gotham',
                                         color: FlutterFlowTheme.of(context)
                                             .textColor,
                                         useGoogleFonts: false,
@@ -414,7 +413,6 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                                                           FlutterFlowTheme.of(
                                                                   context)
                                                               .primaryColor,
-                                                      useGoogleFonts: false,
                                                     ),
                                             borderSide: BorderSide(
                                               color: Colors.transparent,

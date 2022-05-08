@@ -156,7 +156,6 @@ class _MYBudgetsWidgetState extends State<MYBudgetsWidget>
                                           fontFamily: 'Gotham',
                                           color: FlutterFlowTheme.of(context)
                                               .tertiaryColor,
-                                          useGoogleFonts: false,
                                         ),
                                   ),
                                 ),
@@ -177,7 +176,7 @@ class _MYBudgetsWidgetState extends State<MYBudgetsWidget>
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
-                                              fontFamily: 'Gotham',
+                                              fontFamily: 'gotham',
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .tertiaryColor,
@@ -230,7 +229,6 @@ class _MYBudgetsWidgetState extends State<MYBudgetsWidget>
                                           fontFamily: 'Gotham',
                                           color: FlutterFlowTheme.of(context)
                                               .errorRed,
-                                          useGoogleFonts: false,
                                         ),
                                   ),
                                 ),
@@ -251,7 +249,7 @@ class _MYBudgetsWidgetState extends State<MYBudgetsWidget>
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
-                                              fontFamily: 'Gotham',
+                                              fontFamily: 'gotham',
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .errorRed,
@@ -410,7 +408,6 @@ class _MYBudgetsWidgetState extends State<MYBudgetsWidget>
                                                               Color(0xB3FFFFFF),
                                                           fontWeight:
                                                               FontWeight.w300,
-                                                          useGoogleFonts: false,
                                                         ),
                                                   ),
                                                 ),

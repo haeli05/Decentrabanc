@@ -258,7 +258,7 @@ class _TransferFundsWidgetState extends State<TransferFundsWidget>
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
-                                              fontFamily: 'Gotham',
+                                              fontFamily: 'gotham',
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .textColor,
@@ -281,7 +281,6 @@ class _TransferFundsWidgetState extends State<TransferFundsWidget>
                                             .override(
                                               fontFamily: 'Gotham',
                                               fontSize: 32,
-                                              useGoogleFonts: false,
                                             ),
                                       ),
                                     ],
@@ -357,7 +356,7 @@ class _TransferFundsWidgetState extends State<TransferFundsWidget>
                         height: 60,
                         textStyle:
                             FlutterFlowTheme.of(context).bodyText1.override(
-                                  fontFamily: 'Gotham',
+                                  fontFamily: 'gotham',
                                   color: FlutterFlowTheme.of(context).textColor,
                                   useGoogleFonts: false,
                                 ),
@@ -391,7 +390,7 @@ class _TransferFundsWidgetState extends State<TransferFundsWidget>
                         height: 60,
                         textStyle:
                             FlutterFlowTheme.of(context).bodyText1.override(
-                                  fontFamily: 'Gotham',
+                                  fontFamily: 'gotham',
                                   color: FlutterFlowTheme.of(context).textColor,
                                   useGoogleFonts: false,
                                 ),
@@ -423,7 +422,6 @@ class _TransferFundsWidgetState extends State<TransferFundsWidget>
                                 fontFamily: 'Gotham',
                                 color: FlutterFlowTheme.of(context).grayLight,
                                 fontWeight: FontWeight.w300,
-                                useGoogleFonts: false,
                               ),
                           enabledBorder: OutlineInputBorder(
                             borderSide: BorderSide(
@@ -518,7 +516,7 @@ class _TransferFundsWidgetState extends State<TransferFundsWidget>
           Text(
             'Tap above to complete transfer',
             style: FlutterFlowTheme.of(context).bodyText1.override(
-                  fontFamily: 'Gotham',
+                  fontFamily: 'gotham',
                   color: Color(0x43000000),
                   useGoogleFonts: false,
                 ),

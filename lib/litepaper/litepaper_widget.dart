@@ -62,7 +62,7 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
-                                      fontFamily: 'Gotham',
+                                      fontFamily: 'gotham',
                                       color: FlutterFlowTheme.of(context)
                                           .textColor,
                                       fontSize: 16,
@@ -99,8 +99,14 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                     child: Text(
                                       'Login',
                                       textAlign: TextAlign.end,
-                                      style:
-                                          FlutterFlowTheme.of(context).title3,
+                                      style: FlutterFlowTheme.of(context)
+                                          .bodyText1
+                                          .override(
+                                            fontFamily: 'gotham',
+                                            color: FlutterFlowTheme.of(context)
+                                                .textColor,
+                                            useGoogleFonts: false,
+                                          ),
                                     ),
                                   ),
                                 ),
@@ -116,7 +122,14 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                   child: Text(
                                     'Lite Paper',
                                     textAlign: TextAlign.end,
-                                    style: FlutterFlowTheme.of(context).title3,
+                                    style: FlutterFlowTheme.of(context)
+                                        .bodyText1
+                                        .override(
+                                          fontFamily: 'gotham',
+                                          color: FlutterFlowTheme.of(context)
+                                              .textColor,
+                                          useGoogleFonts: false,
+                                        ),
                                   ),
                                 ),
                               ],
@@ -166,8 +179,6 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .primaryText,
-                                              fontSize: 26,
-                                              useGoogleFonts: false,
                                             ),
                                       ),
                                     ),
@@ -199,11 +210,7 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyText1
                                               .override(
-                                                fontFamily: 'Gotham',
-                                                color:
-                                                    FlutterFlowTheme.of(context)
-                                                        .primaryText,
-                                                fontWeight: FontWeight.normal,
+                                                fontFamily: 'gotham',
                                                 useGoogleFonts: false,
                                                 lineHeight: 1.3,
                                               ),
@@ -240,7 +247,7 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1
                                                 .override(
-                                                  fontFamily: 'Gotham',
+                                                  fontFamily: 'gotham',
                                                   color: FlutterFlowTheme.of(
                                                           context)
                                                       .primaryText,
@@ -285,13 +292,7 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1
                                                       .override(
-                                                        fontFamily: 'Gotham',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .primaryText,
-                                                        fontWeight:
-                                                            FontWeight.normal,
+                                                        fontFamily: 'gotham',
                                                         useGoogleFonts: false,
                                                         lineHeight: 1.3,
                                                       ),
@@ -334,13 +335,7 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1
                                                       .override(
-                                                        fontFamily: 'Gotham',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .primaryText,
-                                                        fontWeight:
-                                                            FontWeight.normal,
+                                                        fontFamily: 'gotham',
                                                         useGoogleFonts: false,
                                                         lineHeight: 1.3,
                                                       ),
@@ -385,13 +380,7 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1
                                                       .override(
-                                                        fontFamily: 'Gotham',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .primaryText,
-                                                        fontWeight:
-                                                            FontWeight.normal,
+                                                        fontFamily: 'gotham',
                                                         useGoogleFonts: false,
                                                         lineHeight: 1.3,
                                                       ),
@@ -436,13 +425,7 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1
                                                       .override(
-                                                        fontFamily: 'Gotham',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .primaryText,
-                                                        fontWeight:
-                                                            FontWeight.normal,
+                                                        fontFamily: 'gotham',
                                                         useGoogleFonts: false,
                                                         lineHeight: 1.3,
                                                       ),
@@ -483,13 +466,7 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1
                                                       .override(
-                                                        fontFamily: 'Gotham',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .primaryText,
-                                                        fontWeight:
-                                                            FontWeight.normal,
+                                                        fontFamily: 'gotham',
                                                         useGoogleFonts: false,
                                                         lineHeight: 1.3,
                                                       ),
@@ -541,13 +518,7 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1
                                                       .override(
-                                                        fontFamily: 'Gotham',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .primaryText,
-                                                        fontWeight:
-                                                            FontWeight.normal,
+                                                        fontFamily: 'gotham',
                                                         useGoogleFonts: false,
                                                         lineHeight: 1.3,
                                                       ),
@@ -592,13 +563,7 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1
                                                       .override(
-                                                        fontFamily: 'Gotham',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .primaryText,
-                                                        fontWeight:
-                                                            FontWeight.normal,
+                                                        fontFamily: 'gotham',
                                                         useGoogleFonts: false,
                                                         lineHeight: 1.3,
                                                       ),

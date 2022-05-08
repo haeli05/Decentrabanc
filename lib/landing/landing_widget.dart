@@ -90,11 +90,11 @@ class _LandingWidgetState extends State<LandingWidget>
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
-                                    fontFamily: 'Gotham',
+                                    fontFamily: 'gotham',
                                     color:
                                         FlutterFlowTheme.of(context).textColor,
                                     fontSize: 16,
-                                    fontWeight: FontWeight.w800,
+                                    fontWeight: FontWeight.w500,
                                     useGoogleFonts: false,
                                   ),
                             ),
@@ -127,7 +127,14 @@ class _LandingWidgetState extends State<LandingWidget>
                                   child: Text(
                                     'Login',
                                     textAlign: TextAlign.end,
-                                    style: FlutterFlowTheme.of(context).title3,
+                                    style: FlutterFlowTheme.of(context)
+                                        .bodyText1
+                                        .override(
+                                          fontFamily: 'gotham',
+                                          color: FlutterFlowTheme.of(context)
+                                              .textColor,
+                                          useGoogleFonts: false,
+                                        ),
                                   ),
                                 ),
                               ),
@@ -143,7 +150,14 @@ class _LandingWidgetState extends State<LandingWidget>
                                 child: Text(
                                   'Lite Paper',
                                   textAlign: TextAlign.end,
-                                  style: FlutterFlowTheme.of(context).title3,
+                                  style: FlutterFlowTheme.of(context)
+                                      .bodyText1
+                                      .override(
+                                        fontFamily: 'gotham',
+                                        color: FlutterFlowTheme.of(context)
+                                            .textColor,
+                                        useGoogleFonts: false,
+                                      ),
                                 ),
                               ),
                             ],
@@ -194,14 +208,7 @@ class _LandingWidgetState extends State<LandingWidget>
                                             'Welcome to',
                                             textAlign: TextAlign.start,
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText2
-                                                .override(
-                                                  fontFamily: 'Gotham',
-                                                  color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .textColor,
-                                                  useGoogleFonts: false,
-                                                ),
+                                                .bodyText1,
                                           ),
                                         ],
                                       ),
@@ -216,7 +223,6 @@ class _LandingWidgetState extends State<LandingWidget>
                                                 .override(
                                                   fontFamily: 'Gotham',
                                                   color: Color(0xFFF0F0F0),
-                                                  useGoogleFonts: false,
                                                 ),
                                           ),
                                         ],
@@ -240,7 +246,6 @@ class _LandingWidgetState extends State<LandingWidget>
                                                                 .textColor,
                                                         fontWeight:
                                                             FontWeight.normal,
-                                                        useGoogleFonts: false,
                                                       ),
                                             ),
                                           ],
@@ -272,7 +277,6 @@ class _LandingWidgetState extends State<LandingWidget>
                                                         fontSize: 27,
                                                         fontWeight:
                                                             FontWeight.bold,
-                                                        useGoogleFonts: false,
                                                       ),
                                             ),
                                           ],
@@ -347,7 +351,7 @@ class _LandingWidgetState extends State<LandingWidget>
                           width: MediaQuery.of(context).size.width * 0.4,
                           height: 180,
                           decoration: BoxDecoration(
-                            color: FlutterFlowTheme.of(context).primaryColor,
+                            color: FlutterFlowTheme.of(context).grayDark,
                             boxShadow: [
                               BoxShadow(
                                 blurRadius: 4,
@@ -412,7 +416,7 @@ class _LandingWidgetState extends State<LandingWidget>
                           width: MediaQuery.of(context).size.width * 0.4,
                           height: 180,
                           decoration: BoxDecoration(
-                            color: FlutterFlowTheme.of(context).secondaryColor,
+                            color: FlutterFlowTheme.of(context).gray200,
                             boxShadow: [
                               BoxShadow(
                                 blurRadius: 3,
@@ -490,7 +494,7 @@ class _LandingWidgetState extends State<LandingWidget>
                           width: MediaQuery.of(context).size.width * 0.4,
                           height: 180,
                           decoration: BoxDecoration(
-                            color: FlutterFlowTheme.of(context).tertiaryColor,
+                            color: FlutterFlowTheme.of(context).gray600,
                             boxShadow: [
                               BoxShadow(
                                 blurRadius: 4,
@@ -714,13 +718,7 @@ class _LandingWidgetState extends State<LandingWidget>
                               alignment: AlignmentDirectional(0, 0),
                               child: Text(
                                 'Copyright @ Decentrabanc 2022. All Rights Reserved',
-                                style: FlutterFlowTheme.of(context)
-                                    .bodyText2
-                                    .override(
-                                      fontFamily: 'Dank Mono',
-                                      fontWeight: FontWeight.w300,
-                                      useGoogleFonts: false,
-                                    ),
+                                style: FlutterFlowTheme.of(context).bodyText1,
                               ),
                             ),
                           ),

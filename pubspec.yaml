@@ -102,21 +102,13 @@ flutter:
     - assets/rive_animations/
     - assets/pdfs/
   fonts:
-    - family: Gotham
-      fonts:
-        - asset: assets/fonts/GothamLight.ttf
-          weight: 300
-        - asset: assets/fonts/GothamBook.ttf
-        - asset: assets/fonts/GothamMedium.ttf
-          weight: 600
-        - asset: assets/fonts/GothamMediumItalic.ttf
-          weight: 600
-          style: italic
-        - asset: assets/fonts/Gotham-Bold.otf
-          weight: 700
     - family: Dank Mono
       fonts:
         - asset: assets/fonts/Dank_Mono_Regular.otf
+    - family: gotham
+      fonts:
+        - asset: assets/fonts/Gotham-Light.otf
+          weight: 300
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

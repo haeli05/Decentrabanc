@@ -86,13 +86,13 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget> {
                 decoration: InputDecoration(
                   labelText: 'Email Address',
                   labelStyle: FlutterFlowTheme.of(context).bodyText1.override(
-                        fontFamily: 'Gotham',
+                        fontFamily: 'gotham',
                         color: Color(0x98FFFFFF),
                         useGoogleFonts: false,
                       ),
                   hintText: 'Enter your email...',
                   hintStyle: FlutterFlowTheme.of(context).bodyText1.override(
-                        fontFamily: 'Gotham',
+                        fontFamily: 'gotham',
                         color: Color(0x98FFFFFF),
                         useGoogleFonts: false,
                       ),
@@ -116,7 +116,7 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget> {
                       EdgeInsetsDirectional.fromSTEB(20, 24, 20, 24),
                 ),
                 style: FlutterFlowTheme.of(context).bodyText1.override(
-                      fontFamily: 'Gotham',
+                      fontFamily: 'gotham',
                       color: FlutterFlowTheme.of(context).tertiaryColor,
                       useGoogleFonts: false,
                     ),

@@ -100,7 +100,6 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                           fontFamily: 'Gotham',
                                           color: FlutterFlowTheme.of(context)
                                               .tertiaryColor,
-                                          useGoogleFonts: false,
                                         ),
                                   ),
                                 ),
@@ -160,7 +159,6 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                             fontFamily: 'Gotham',
                                             color: Color(0x98FFFFFF),
                                             fontSize: 12,
-                                            useGoogleFonts: false,
                                           ),
                                     ),
                                   ),
@@ -174,7 +172,6 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                           .override(
                                             fontFamily: 'Gotham',
                                             fontSize: 32,
-                                            useGoogleFonts: false,
                                           ),
                                     ),
                                   ),
@@ -189,7 +186,6 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                             fontFamily: 'Gotham',
                                             color: Color(0x98FFFFFF),
                                             fontSize: 12,
-                                            useGoogleFonts: false,
                                           ),
                                     ),
                                   ),
@@ -204,7 +200,6 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                             fontFamily: 'Gotham',
                                             color: FlutterFlowTheme.of(context)
                                                 .tertiaryColor,
-                                            useGoogleFonts: false,
                                           ),
                                     ),
                                   ),
@@ -219,7 +214,6 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                             fontFamily: 'Gotham',
                                             color: Color(0x98FFFFFF),
                                             fontSize: 12,
-                                            useGoogleFonts: false,
                                           ),
                                     ),
                                   ),
@@ -234,7 +228,6 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                             fontFamily: 'Gotham',
                                             color: FlutterFlowTheme.of(context)
                                                 .errorRed,
-                                            useGoogleFonts: false,
                                           ),
                                     ),
                                   ),
@@ -275,7 +268,6 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                               fontFamily: 'Gotham',
                                               color: Color(0x98FFFFFF),
                                               fontSize: 12,
-                                              useGoogleFonts: false,
                                             ),
                                       ),
                                     ),
@@ -289,7 +281,6 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                             .override(
                                               fontFamily: 'Gotham',
                                               fontSize: 32,
-                                              useGoogleFonts: false,
                                             ),
                                       ),
                                     ),
@@ -304,7 +295,6 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                               fontFamily: 'Gotham',
                                               color: Color(0x98FFFFFF),
                                               fontSize: 12,
-                                              useGoogleFonts: false,
                                             ),
                                       ),
                                     ),
@@ -320,7 +310,6 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .darkBackground,
-                                              useGoogleFonts: false,
                                             ),
                                       ),
                                     ),
@@ -458,7 +447,6 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                                           color:
                                                               Color(0x98FFFFFF),
                                                           fontSize: 12,
-                                                          useGoogleFonts: false,
                                                         ),
                                               ),
                                             ),
@@ -484,7 +472,6 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                                           color: FlutterFlowTheme
                                                                   .of(context)
                                                               .tertiaryColor,
-                                                          useGoogleFonts: false,
                                                         ),
                                               ),
                                             ),
@@ -526,7 +513,6 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                               fontFamily: 'Gotham',
                                               color: Color(0x98FFFFFF),
                                               fontSize: 12,
-                                              useGoogleFonts: false,
                                             ),
                                       ),
                                     ),
@@ -540,7 +526,6 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                             .override(
                                               fontFamily: 'Gotham',
                                               fontSize: 32,
-                                              useGoogleFonts: false,
                                             ),
                                       ),
                                     ),
@@ -555,7 +540,6 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                               fontFamily: 'Gotham',
                                               color: Color(0x98FFFFFF),
                                               fontSize: 12,
-                                              useGoogleFonts: false,
                                             ),
                                       ),
                                     ),
@@ -571,7 +555,6 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .errorRed,
-                                              useGoogleFonts: false,
                                             ),
                                       ),
                                     ),

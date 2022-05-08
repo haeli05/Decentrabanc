@@ -117,7 +117,7 @@ class _PaymentDetailsWidgetState extends State<PaymentDetailsWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
-                                      fontFamily: 'Gotham',
+                                      fontFamily: 'gotham',
                                       color: FlutterFlowTheme.of(context)
                                           .textColor,
                                       useGoogleFonts: false,
@@ -142,7 +142,6 @@ class _PaymentDetailsWidgetState extends State<PaymentDetailsWidget> {
                                       color: FlutterFlowTheme.of(context)
                                           .textColor,
                                       fontSize: 36,
-                                      useGoogleFonts: false,
                                     ),
                               ),
                             ),
@@ -177,7 +176,6 @@ class _PaymentDetailsWidgetState extends State<PaymentDetailsWidget> {
                           style: FlutterFlowTheme.of(context).title3.override(
                                 fontFamily: 'Gotham',
                                 fontWeight: FontWeight.bold,
-                                useGoogleFonts: false,
                               ),
                         ),
                       ),
@@ -219,7 +217,6 @@ class _PaymentDetailsWidgetState extends State<PaymentDetailsWidget> {
                                 fontFamily: 'Gotham',
                                 color:
                                     FlutterFlowTheme.of(context).tertiaryColor,
-                                useGoogleFonts: false,
                               ),
                         ),
                       ),
@@ -376,7 +373,7 @@ class _PaymentDetailsWidgetState extends State<PaymentDetailsWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1
                                                 .override(
-                                                  fontFamily: 'Gotham',
+                                                  fontFamily: 'gotham',
                                                   color: FlutterFlowTheme.of(
                                                           context)
                                                       .primaryColor,

@@ -245,12 +245,12 @@ class _CompleteProfileWidgetState extends State<CompleteProfileWidget>
                   decoration: InputDecoration(
                     labelText: 'Your Name',
                     labelStyle: FlutterFlowTheme.of(context).bodyText1.override(
-                          fontFamily: 'Gotham',
+                          fontFamily: 'gotham',
                           color: FlutterFlowTheme.of(context).grayLight,
                           useGoogleFonts: false,
                         ),
                     hintStyle: FlutterFlowTheme.of(context).bodyText1.override(
-                          fontFamily: 'Gotham',
+                          fontFamily: 'gotham',
                           color: Color(0x98FFFFFF),
                           useGoogleFonts: false,
                         ),
@@ -274,7 +274,7 @@ class _CompleteProfileWidgetState extends State<CompleteProfileWidget>
                         EdgeInsetsDirectional.fromSTEB(20, 24, 20, 24),
                   ),
                   style: FlutterFlowTheme.of(context).bodyText1.override(
-                        fontFamily: 'Gotham',
+                        fontFamily: 'gotham',
                         color: FlutterFlowTheme.of(context).textColor,
                         useGoogleFonts: false,
                       ),
@@ -288,13 +288,13 @@ class _CompleteProfileWidgetState extends State<CompleteProfileWidget>
                   decoration: InputDecoration(
                     labelText: 'Your Age',
                     labelStyle: FlutterFlowTheme.of(context).bodyText1.override(
-                          fontFamily: 'Gotham',
+                          fontFamily: 'gotham',
                           color: FlutterFlowTheme.of(context).grayLight,
                           useGoogleFonts: false,
                         ),
                     hintText: 'i.e. 34',
                     hintStyle: FlutterFlowTheme.of(context).bodyText1.override(
-                          fontFamily: 'Gotham',
+                          fontFamily: 'gotham',
                           color: Color(0x98FFFFFF),
                           useGoogleFonts: false,
                         ),
@@ -318,7 +318,7 @@ class _CompleteProfileWidgetState extends State<CompleteProfileWidget>
                         EdgeInsetsDirectional.fromSTEB(20, 24, 20, 24),
                   ),
                   style: FlutterFlowTheme.of(context).bodyText1.override(
-                        fontFamily: 'Gotham',
+                        fontFamily: 'gotham',
                         color: FlutterFlowTheme.of(context).textColor,
                         useGoogleFonts: false,
                       ),
@@ -333,13 +333,13 @@ class _CompleteProfileWidgetState extends State<CompleteProfileWidget>
                   decoration: InputDecoration(
                     labelText: 'Your Title',
                     labelStyle: FlutterFlowTheme.of(context).bodyText1.override(
-                          fontFamily: 'Gotham',
+                          fontFamily: 'gotham',
                           color: FlutterFlowTheme.of(context).grayLight,
                           useGoogleFonts: false,
                         ),
                     hintText: 'What is your position?',
                     hintStyle: FlutterFlowTheme.of(context).bodyText1.override(
-                          fontFamily: 'Gotham',
+                          fontFamily: 'gotham',
                           color: Color(0x98FFFFFF),
                           useGoogleFonts: false,
                         ),
@@ -363,7 +363,7 @@ class _CompleteProfileWidgetState extends State<CompleteProfileWidget>
                         EdgeInsetsDirectional.fromSTEB(20, 24, 20, 24),
                   ),
                   style: FlutterFlowTheme.of(context).bodyText1.override(
-                        fontFamily: 'Gotham',
+                        fontFamily: 'gotham',
                         color: FlutterFlowTheme.of(context).textColor,
                         useGoogleFonts: false,
                       ),

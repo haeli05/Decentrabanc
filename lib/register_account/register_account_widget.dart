@@ -118,7 +118,6 @@ class _RegisterAccountWidgetState extends State<RegisterAccountWidget> {
                                               .override(
                                                 fontFamily: 'Gotham',
                                                 fontWeight: FontWeight.normal,
-                                                useGoogleFonts: false,
                                               ),
                                         ),
                                       ],
@@ -162,7 +161,7 @@ class _RegisterAccountWidgetState extends State<RegisterAccountWidget> {
                                     labelStyle: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
-                                          fontFamily: 'Gotham',
+                                          fontFamily: 'gotham',
                                           color: Color(0x98FFFFFF),
                                           useGoogleFonts: false,
                                         ),
@@ -170,7 +169,7 @@ class _RegisterAccountWidgetState extends State<RegisterAccountWidget> {
                                     hintStyle: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
-                                          fontFamily: 'Gotham',
+                                          fontFamily: 'gotham',
                                           color: Color(0x98FFFFFF),
                                           useGoogleFonts: false,
                                         ),
@@ -198,7 +197,7 @@ class _RegisterAccountWidgetState extends State<RegisterAccountWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
-                                        fontFamily: 'Gotham',
+                                        fontFamily: 'gotham',
                                         color: FlutterFlowTheme.of(context)
                                             .textColor,
                                         useGoogleFonts: false,
@@ -216,7 +215,7 @@ class _RegisterAccountWidgetState extends State<RegisterAccountWidget> {
                                     labelStyle: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
-                                          fontFamily: 'Gotham',
+                                          fontFamily: 'gotham',
                                           color: Color(0x98FFFFFF),
                                           useGoogleFonts: false,
                                         ),
@@ -224,7 +223,7 @@ class _RegisterAccountWidgetState extends State<RegisterAccountWidget> {
                                     hintStyle: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
-                                          fontFamily: 'Gotham',
+                                          fontFamily: 'gotham',
                                           color: Color(0x98FFFFFF),
                                           useGoogleFonts: false,
                                         ),
@@ -265,7 +264,7 @@ class _RegisterAccountWidgetState extends State<RegisterAccountWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
-                                        fontFamily: 'Gotham',
+                                        fontFamily: 'gotham',
                                         color: FlutterFlowTheme.of(context)
                                             .textColor,
                                         useGoogleFonts: false,
@@ -283,7 +282,7 @@ class _RegisterAccountWidgetState extends State<RegisterAccountWidget> {
                                     labelStyle: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
-                                          fontFamily: 'Gotham',
+                                          fontFamily: 'gotham',
                                           color: Color(0x98FFFFFF),
                                           useGoogleFonts: false,
                                         ),
@@ -291,7 +290,7 @@ class _RegisterAccountWidgetState extends State<RegisterAccountWidget> {
                                     hintStyle: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
-                                          fontFamily: 'Gotham',
+                                          fontFamily: 'gotham',
                                           color: Color(0x98FFFFFF),
                                           useGoogleFonts: false,
                                         ),
@@ -332,7 +331,7 @@ class _RegisterAccountWidgetState extends State<RegisterAccountWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
-                                        fontFamily: 'Gotham',
+                                        fontFamily: 'gotham',
                                         color: FlutterFlowTheme.of(context)
                                             .textColor,
                                         useGoogleFonts: false,
@@ -454,7 +453,6 @@ class _RegisterAccountWidgetState extends State<RegisterAccountWidget> {
                                                           FlutterFlowTheme.of(
                                                                   context)
                                                               .primaryColor,
-                                                      useGoogleFonts: false,
                                                     ),
                                             borderSide: BorderSide(
                                               color: Colors.transparent,

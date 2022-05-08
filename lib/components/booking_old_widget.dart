@@ -232,7 +232,7 @@ class _BookingOldWidgetState extends State<BookingOldWidget> {
                             EdgeInsetsDirectional.fromSTEB(20, 24, 0, 24),
                       ),
                       style: FlutterFlowTheme.of(context).bodyText1.override(
-                            fontFamily: 'Gotham',
+                            fontFamily: 'gotham',
                             color: FlutterFlowTheme.of(context).textColor,
                             useGoogleFonts: false,
                           ),
@@ -289,7 +289,7 @@ class _BookingOldWidgetState extends State<BookingOldWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
-                                              fontFamily: 'Gotham',
+                                              fontFamily: 'gotham',
                                               fontSize: 12,
                                               useGoogleFonts: false,
                                             ),
@@ -308,7 +308,6 @@ class _BookingOldWidgetState extends State<BookingOldWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .tertiaryColor,
                                               fontWeight: FontWeight.w600,
-                                              useGoogleFonts: false,
                                             ),
                                       ),
                                     ),
