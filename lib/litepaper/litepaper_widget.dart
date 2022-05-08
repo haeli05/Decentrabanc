@@ -197,9 +197,17 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                               Text(
                                                 'Abstract',
                                                 textAlign: TextAlign.start,
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .subtitle1,
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .subtitle1
+                                                    .override(
+                                                      fontFamily: 'Dank Mono',
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .primaryText,
+                                                      useGoogleFonts: false,
+                                                    ),
                                               ),
                                             ],
                                           ),
@@ -211,6 +219,9 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                               .bodyText1
                                               .override(
                                                 fontFamily: 'gotham',
+                                                color:
+                                                    FlutterFlowTheme.of(context)
+                                                        .primaryText,
                                                 useGoogleFonts: false,
                                                 lineHeight: 1.3,
                                               ),
@@ -230,9 +241,17 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                               Text(
                                                 'Specifics',
                                                 textAlign: TextAlign.start,
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .subtitle1,
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .subtitle1
+                                                    .override(
+                                                      fontFamily: 'Dank Mono',
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .primaryText,
+                                                      useGoogleFonts: false,
+                                                    ),
                                               ),
                                             ],
                                           ),
@@ -280,7 +299,15 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                                     textAlign: TextAlign.start,
                                                     style: FlutterFlowTheme.of(
                                                             context)
-                                                        .subtitle1,
+                                                        .subtitle1
+                                                        .override(
+                                                          fontFamily:
+                                                              'Dank Mono',
+                                                          color: FlutterFlowTheme
+                                                                  .of(context)
+                                                              .primaryText,
+                                                          useGoogleFonts: false,
+                                                        ),
                                                   ),
                                                 ],
                                               ),
@@ -293,6 +320,10 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                                       .bodyText1
                                                       .override(
                                                         fontFamily: 'gotham',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .primaryText,
                                                         useGoogleFonts: false,
                                                         lineHeight: 1.3,
                                                       ),
@@ -336,6 +367,10 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                                       .bodyText1
                                                       .override(
                                                         fontFamily: 'gotham',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .primaryText,
                                                         useGoogleFonts: false,
                                                         lineHeight: 1.3,
                                                       ),
@@ -381,6 +416,10 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                                       .bodyText1
                                                       .override(
                                                         fontFamily: 'gotham',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .primaryText,
                                                         useGoogleFonts: false,
                                                         lineHeight: 1.3,
                                                       ),
@@ -426,6 +465,10 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                                       .bodyText1
                                                       .override(
                                                         fontFamily: 'gotham',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .primaryText,
                                                         useGoogleFonts: false,
                                                         lineHeight: 1.3,
                                                       ),
@@ -449,9 +492,17 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                               Text(
                                                 'DeFi Protocol',
                                                 textAlign: TextAlign.start,
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .subtitle1,
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .subtitle1
+                                                    .override(
+                                                      fontFamily: 'Dank Mono',
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .primaryText,
+                                                      useGoogleFonts: false,
+                                                    ),
                                               ),
                                             ],
                                           ),
@@ -467,6 +518,10 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                                       .bodyText1
                                                       .override(
                                                         fontFamily: 'gotham',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .primaryText,
                                                         useGoogleFonts: false,
                                                         lineHeight: 1.3,
                                                       ),
@@ -519,6 +574,10 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                                       .bodyText1
                                                       .override(
                                                         fontFamily: 'gotham',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .primaryText,
                                                         useGoogleFonts: false,
                                                         lineHeight: 1.3,
                                                       ),
@@ -564,6 +623,10 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                                       .bodyText1
                                                       .override(
                                                         fontFamily: 'gotham',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .primaryText,
                                                         useGoogleFonts: false,
                                                         lineHeight: 1.3,
                                                       ),
