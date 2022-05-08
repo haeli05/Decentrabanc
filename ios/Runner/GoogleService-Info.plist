@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1018497477217-3o3trbbec8kp3jf1uolsq4s9qtbdsula.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1018497477217-3o3trbbec8kp3jf1uolsq4s9qtbdsula</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1018497477217-sdqie6k9dtjajfbucnu364d9i104f7lf.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBmEoxmJJ3MXTLTtXgfq33YLReVDyR6MrU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1018497477217</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.decentrabanc.ap</string>
+	<key>PROJECT_ID</key>
+	<string>decentrabanc</string>
+	<key>STORAGE_BUCKET</key>
+	<string>decentrabanc.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1018497477217:ios:f29e255ab4fc641a031820</string>
+</dict>
+</plist>

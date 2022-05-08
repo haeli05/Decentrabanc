@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "1018497477217",
+    "project_id": "decentrabanc",
+    "storage_bucket": "decentrabanc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018497477217:android:76de697d3c24eb2b031820",
+        "android_client_info": {
+          "package_name": "com.decentrabanc.ap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018497477217-sglouj09lfu6am2fu4kqrvlvgalmo33i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.decentrabanc.ap",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "1018497477217-614pm0bdeodlb2s627tpql0p7icsd81e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl4IsfS31B_8Yjkkmq6Rdd2mrOc_-Sggk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018497477217-614pm0bdeodlb2s627tpql0p7icsd81e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1018497477217-3o3trbbec8kp3jf1uolsq4s9qtbdsula.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.decentrabanc.ap"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018497477217:android:15799f35ee248860031820",
+        "android_client_info": {
+          "package_name": "com.decentrabanc.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018497477217-sdqie6k9dtjajfbucnu364d9i104f7lf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.decentrabanc.app",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "1018497477217-614pm0bdeodlb2s627tpql0p7icsd81e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl4IsfS31B_8Yjkkmq6Rdd2mrOc_-Sggk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018497477217-614pm0bdeodlb2s627tpql0p7icsd81e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1018497477217-3o3trbbec8kp3jf1uolsq4s9qtbdsula.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.decentrabanc.ap"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
