@@ -332,6 +332,8 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                         ),
                                         Column(
                                           mainAxisSize: MainAxisSize.max,
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.start,
                                           children: [
                                             Padding(
                                               padding: EdgeInsetsDirectional
@@ -526,14 +528,18 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                                         lineHeight: 1.3,
                                                       ),
                                             ),
-                                            Image.asset(
-                                              'assets/images/Screen_Shot_2022-04-01_at_9.38.07_PM.png',
-                                              width: MediaQuery.of(context)
-                                                      .size
-                                                      .width *
-                                                  0.8,
-                                              height: 220,
-                                              fit: BoxFit.fitHeight,
+                                            Padding(
+                                              padding: EdgeInsetsDirectional
+                                                  .fromSTEB(0, 0, 0, 14),
+                                              child: Image.asset(
+                                                'assets/images/Screen_Shot_2022-04-01_at_9.38.07_PM.png',
+                                                width: MediaQuery.of(context)
+                                                        .size
+                                                        .width *
+                                                    0.8,
+                                                height: 220,
+                                                fit: BoxFit.fitHeight,
+                                              ),
                                             ),
                                           ],
                                         ),
