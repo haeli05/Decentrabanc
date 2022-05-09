@@ -550,7 +550,7 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                                         .width *
                                                     0.8,
                                                 height: 220,
-                                                fit: BoxFit.fitHeight,
+                                                fit: BoxFit.contain,
                                               ),
                                             ),
                                           ],
