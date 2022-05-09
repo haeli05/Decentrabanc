@@ -135,7 +135,7 @@ class _BudgetDetailsWidgetState extends State<BudgetDetailsWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .title1
                                     .override(
-                                      fontFamily: 'Gotham',
+                                      fontFamily: 'gothamhtf',
                                       fontSize: 36,
                                       fontWeight: FontWeight.normal,
                                       useGoogleFonts: false,
@@ -150,7 +150,7 @@ class _BudgetDetailsWidgetState extends State<BudgetDetailsWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
-                                      fontFamily: 'Gotham',
+                                      fontFamily: 'gothamhtf',
                                       color: Color(0xB3FFFFFF),
                                       useGoogleFonts: false,
                                     ),
@@ -184,7 +184,7 @@ class _BudgetDetailsWidgetState extends State<BudgetDetailsWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText2
                                         .override(
-                                          fontFamily: 'Gotham',
+                                          fontFamily: 'Dank Mono',
                                           color: Color(0xB3FFFFFF),
                                           fontWeight: FontWeight.w300,
                                           useGoogleFonts: false,
@@ -422,7 +422,8 @@ class _BudgetDetailsWidgetState extends State<BudgetDetailsWidget> {
                                                             context)
                                                         .bodyText1
                                                         .override(
-                                                          fontFamily: 'Gotham',
+                                                          fontFamily:
+                                                              'gothamhtf',
                                                           fontSize: 12,
                                                           useGoogleFonts: false,
                                                         ),

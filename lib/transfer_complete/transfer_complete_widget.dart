@@ -57,7 +57,7 @@ class _TransferCompleteWidgetState extends State<TransferCompleteWidget> {
                       'Great work, you successfully transferred funds. It may take a few days for the funds to leave your account.',
                       textAlign: TextAlign.center,
                       style: FlutterFlowTheme.of(context).bodyText2.override(
-                            fontFamily: 'Gotham',
+                            fontFamily: 'Dank Mono',
                             color: Color(0xB3FFFFFF),
                             useGoogleFonts: false,
                           ),

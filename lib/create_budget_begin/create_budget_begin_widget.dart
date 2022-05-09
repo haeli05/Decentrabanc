@@ -141,7 +141,7 @@ class _CreateBudgetBeginWidgetState extends State<CreateBudgetBeginWidget>
                               labelStyle: FlutterFlowTheme.of(context)
                                   .title1
                                   .override(
-                                    fontFamily: 'Gotham',
+                                    fontFamily: 'gothamhtf',
                                     color:
                                         FlutterFlowTheme.of(context).grayLight,
                                     fontWeight: FontWeight.w300,
@@ -151,7 +151,7 @@ class _CreateBudgetBeginWidgetState extends State<CreateBudgetBeginWidget>
                               hintStyle: FlutterFlowTheme.of(context)
                                   .title1
                                   .override(
-                                    fontFamily: 'Gotham',
+                                    fontFamily: 'gothamhtf',
                                     color:
                                         FlutterFlowTheme.of(context).grayLight,
                                     fontWeight: FontWeight.w300,
@@ -253,7 +253,7 @@ class _CreateBudgetBeginWidgetState extends State<CreateBudgetBeginWidget>
                           style: FlutterFlowTheme.of(context)
                               .bodyText1
                               .override(
-                                fontFamily: 'Gotham',
+                                fontFamily: 'gothamhtf',
                                 color: FlutterFlowTheme.of(context).textColor,
                                 useGoogleFonts: false,
                               ),
@@ -358,7 +358,7 @@ class _CreateBudgetBeginWidgetState extends State<CreateBudgetBeginWidget>
             Text(
               'Tap above to complete request',
               style: FlutterFlowTheme.of(context).bodyText1.override(
-                    fontFamily: 'Gotham',
+                    fontFamily: 'gothamhtf',
                     color: Color(0x43000000),
                     useGoogleFonts: false,
                   ),

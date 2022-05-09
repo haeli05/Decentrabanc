@@ -306,7 +306,7 @@ class _BookAppointmentWidgetState extends State<BookAppointmentWidget>
                             EdgeInsetsDirectional.fromSTEB(20, 24, 0, 24),
                       ),
                       style: FlutterFlowTheme.of(context).bodyText1.override(
-                            fontFamily: 'Gotham',
+                            fontFamily: 'gothamhtf',
                             color: FlutterFlowTheme.of(context).textColor,
                             useGoogleFonts: false,
                           ),
@@ -364,7 +364,7 @@ class _BookAppointmentWidgetState extends State<BookAppointmentWidget>
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
-                                              fontFamily: 'Gotham',
+                                              fontFamily: 'gothamhtf',
                                               fontSize: 12,
                                               useGoogleFonts: false,
                                             ),
@@ -378,7 +378,7 @@ class _BookAppointmentWidgetState extends State<BookAppointmentWidget>
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText2
                                             .override(
-                                              fontFamily: 'Gotham',
+                                              fontFamily: 'Dank Mono',
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .tertiaryColor,

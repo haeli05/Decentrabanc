@@ -114,6 +114,13 @@ flutter:
           weight: 700
         - asset: assets/fonts/Gotham-Black.otf
           weight: 900
+    - family: gothamhtf
+      fonts:
+        - asset: assets/fonts/gothamhtf-xlight-webfont.ttf
+          weight: 200
+        - asset: assets/fonts/gothamhtf-light-webfont.ttf
+          weight: 300
+        - asset: assets/fonts/gothamhtf-book_bigfontsite.com.ttf
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

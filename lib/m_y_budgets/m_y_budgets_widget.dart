@@ -153,7 +153,7 @@ class _MYBudgetsWidgetState extends State<MYBudgetsWidget>
                                     style: FlutterFlowTheme.of(context)
                                         .title1
                                         .override(
-                                          fontFamily: 'Gotham',
+                                          fontFamily: 'gothamhtf',
                                           color: FlutterFlowTheme.of(context)
                                               .tertiaryColor,
                                           useGoogleFonts: false,
@@ -177,7 +177,7 @@ class _MYBudgetsWidgetState extends State<MYBudgetsWidget>
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
-                                              fontFamily: 'Gotham',
+                                              fontFamily: 'gothamhtf',
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .tertiaryColor,
@@ -227,7 +227,7 @@ class _MYBudgetsWidgetState extends State<MYBudgetsWidget>
                                     style: FlutterFlowTheme.of(context)
                                         .title1
                                         .override(
-                                          fontFamily: 'Gotham',
+                                          fontFamily: 'gothamhtf',
                                           color: FlutterFlowTheme.of(context)
                                               .errorRed,
                                           useGoogleFonts: false,
@@ -251,7 +251,7 @@ class _MYBudgetsWidgetState extends State<MYBudgetsWidget>
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
-                                              fontFamily: 'Gotham',
+                                              fontFamily: 'gothamhtf',
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .errorRed,
@@ -405,7 +405,8 @@ class _MYBudgetsWidgetState extends State<MYBudgetsWidget>
                                                             context)
                                                         .bodyText2
                                                         .override(
-                                                          fontFamily: 'Gotham',
+                                                          fontFamily:
+                                                              'Dank Mono',
                                                           color:
                                                               Color(0xB3FFFFFF),
                                                           fontWeight:

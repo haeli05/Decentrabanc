@@ -97,7 +97,7 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .title3
                                         .override(
-                                          fontFamily: 'Gotham',
+                                          fontFamily: 'gothamhtf',
                                           color: FlutterFlowTheme.of(context)
                                               .tertiaryColor,
                                           useGoogleFonts: false,
@@ -157,7 +157,7 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText2
                                           .override(
-                                            fontFamily: 'Gotham',
+                                            fontFamily: 'Dank Mono',
                                             color: Color(0x98FFFFFF),
                                             fontSize: 12,
                                             useGoogleFonts: false,
@@ -172,7 +172,7 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .title1
                                           .override(
-                                            fontFamily: 'Gotham',
+                                            fontFamily: 'gothamhtf',
                                             fontSize: 32,
                                             useGoogleFonts: false,
                                           ),
@@ -186,7 +186,7 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText2
                                           .override(
-                                            fontFamily: 'Gotham',
+                                            fontFamily: 'Dank Mono',
                                             color: Color(0x98FFFFFF),
                                             fontSize: 12,
                                             useGoogleFonts: false,
@@ -201,7 +201,7 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .title1
                                           .override(
-                                            fontFamily: 'Gotham',
+                                            fontFamily: 'gothamhtf',
                                             color: FlutterFlowTheme.of(context)
                                                 .tertiaryColor,
                                             useGoogleFonts: false,
@@ -216,7 +216,7 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText2
                                           .override(
-                                            fontFamily: 'Gotham',
+                                            fontFamily: 'Dank Mono',
                                             color: Color(0x98FFFFFF),
                                             fontSize: 12,
                                             useGoogleFonts: false,
@@ -231,7 +231,7 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .title1
                                           .override(
-                                            fontFamily: 'Gotham',
+                                            fontFamily: 'gothamhtf',
                                             color: FlutterFlowTheme.of(context)
                                                 .errorRed,
                                             useGoogleFonts: false,
@@ -272,7 +272,7 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText2
                                             .override(
-                                              fontFamily: 'Gotham',
+                                              fontFamily: 'Dank Mono',
                                               color: Color(0x98FFFFFF),
                                               fontSize: 12,
                                               useGoogleFonts: false,
@@ -287,7 +287,7 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .title1
                                             .override(
-                                              fontFamily: 'Gotham',
+                                              fontFamily: 'gothamhtf',
                                               fontSize: 32,
                                               useGoogleFonts: false,
                                             ),
@@ -301,7 +301,7 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText2
                                             .override(
-                                              fontFamily: 'Gotham',
+                                              fontFamily: 'Dank Mono',
                                               color: Color(0x98FFFFFF),
                                               fontSize: 12,
                                               useGoogleFonts: false,
@@ -316,7 +316,7 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .title3
                                             .override(
-                                              fontFamily: 'Gotham',
+                                              fontFamily: 'gothamhtf',
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .darkBackground,
@@ -450,16 +450,15 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                                   .fromSTEB(12, 12, 12, 0),
                                               child: Text(
                                                 'We noticed a small charge that is out of character of this account, please review.',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyText2
-                                                        .override(
-                                                          fontFamily: 'Gotham',
-                                                          color:
-                                                              Color(0x98FFFFFF),
-                                                          fontSize: 12,
-                                                          useGoogleFonts: false,
-                                                        ),
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyText2
+                                                    .override(
+                                                      fontFamily: 'Dank Mono',
+                                                      color: Color(0x98FFFFFF),
+                                                      fontSize: 12,
+                                                      useGoogleFonts: false,
+                                                    ),
                                               ),
                                             ),
                                           ),
@@ -476,16 +475,17 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                                   .fromSTEB(12, 0, 0, 0),
                                               child: Text(
                                                 'View Now',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyText2
-                                                        .override(
-                                                          fontFamily: 'Gotham',
-                                                          color: FlutterFlowTheme
-                                                                  .of(context)
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyText2
+                                                    .override(
+                                                      fontFamily: 'Dank Mono',
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
                                                               .tertiaryColor,
-                                                          useGoogleFonts: false,
-                                                        ),
+                                                      useGoogleFonts: false,
+                                                    ),
                                               ),
                                             ),
                                           ],
@@ -523,7 +523,7 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText2
                                             .override(
-                                              fontFamily: 'Gotham',
+                                              fontFamily: 'Dank Mono',
                                               color: Color(0x98FFFFFF),
                                               fontSize: 12,
                                               useGoogleFonts: false,
@@ -538,7 +538,7 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .title1
                                             .override(
-                                              fontFamily: 'Gotham',
+                                              fontFamily: 'gothamhtf',
                                               fontSize: 32,
                                               useGoogleFonts: false,
                                             ),
@@ -552,7 +552,7 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText2
                                             .override(
-                                              fontFamily: 'Gotham',
+                                              fontFamily: 'Dank Mono',
                                               color: Color(0x98FFFFFF),
                                               fontSize: 12,
                                               useGoogleFonts: false,
@@ -567,7 +567,7 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .title1
                                             .override(
-                                              fontFamily: 'Gotham',
+                                              fontFamily: 'gothamhtf',
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .errorRed,

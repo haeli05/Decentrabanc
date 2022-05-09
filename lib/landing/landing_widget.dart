@@ -87,16 +87,7 @@ class _LandingWidgetState extends State<LandingWidget>
                             ),
                             Text(
                               'Beta v0.1',
-                              style: FlutterFlowTheme.of(context)
-                                  .bodyText1
-                                  .override(
-                                    fontFamily: 'Gotham',
-                                    color:
-                                        FlutterFlowTheme.of(context).textColor,
-                                    fontSize: 16,
-                                    fontWeight: FontWeight.w500,
-                                    useGoogleFonts: false,
-                                  ),
+                              style: FlutterFlowTheme.of(context).bodyText2,
                             ),
                           ],
                         ),
@@ -130,7 +121,7 @@ class _LandingWidgetState extends State<LandingWidget>
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
-                                          fontFamily: 'Gotham',
+                                          fontFamily: 'gothamhtf',
                                           color: FlutterFlowTheme.of(context)
                                               .textColor,
                                           useGoogleFonts: false,
@@ -153,7 +144,7 @@ class _LandingWidgetState extends State<LandingWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
-                                        fontFamily: 'Gotham',
+                                        fontFamily: 'gothamhtf',
                                         color: FlutterFlowTheme.of(context)
                                             .textColor,
                                         useGoogleFonts: false,
@@ -208,7 +199,14 @@ class _LandingWidgetState extends State<LandingWidget>
                                             'Welcome to',
                                             textAlign: TextAlign.start,
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1,
+                                                .bodyText1
+                                                .override(
+                                                  fontFamily: 'gothamhtf',
+                                                  color: FlutterFlowTheme.of(
+                                                          context)
+                                                      .textColor,
+                                                  useGoogleFonts: false,
+                                                ),
                                           ),
                                         ],
                                       ),
@@ -221,7 +219,7 @@ class _LandingWidgetState extends State<LandingWidget>
                                             style: FlutterFlowTheme.of(context)
                                                 .title1
                                                 .override(
-                                                  fontFamily: 'Gotham',
+                                                  fontFamily: 'gothamhtf',
                                                   color: Color(0xFFF0F0F0),
                                                   useGoogleFonts: false,
                                                 ),
@@ -240,7 +238,7 @@ class _LandingWidgetState extends State<LandingWidget>
                                                   FlutterFlowTheme.of(context)
                                                       .title3
                                                       .override(
-                                                        fontFamily: 'Gotham',
+                                                        fontFamily: 'gothamhtf',
                                                         color:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -264,9 +262,17 @@ class _LandingWidgetState extends State<LandingWidget>
                                                   .fromSTEB(10, 0, 0, 0),
                                               child: Text(
                                                 'from',
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyText2,
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .subtitle1
+                                                    .override(
+                                                      fontFamily: 'Dank Mono',
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .textColor,
+                                                      useGoogleFonts: false,
+                                                    ),
                                               ),
                                             ),
                                             Text(
@@ -275,7 +281,7 @@ class _LandingWidgetState extends State<LandingWidget>
                                                   FlutterFlowTheme.of(context)
                                                       .title1
                                                       .override(
-                                                        fontFamily: 'Gotham',
+                                                        fontFamily: 'gothamhtf',
                                                         fontSize: 27,
                                                         fontWeight:
                                                             FontWeight.bold,
@@ -465,7 +471,7 @@ class _LandingWidgetState extends State<LandingWidget>
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       8, 4, 8, 0),
                                   child: Text(
-                                    'Anchor Protocol, Maple Finance, Dao Jones and more',
+                                    'Anchor Protocol, Maple Finance and more',
                                     textAlign: TextAlign.center,
                                     style: GoogleFonts.getFont(
                                       'Lexend Deca',

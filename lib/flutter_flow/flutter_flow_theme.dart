@@ -28,19 +28,19 @@ abstract class FlutterFlowTheme {
   Color tertiary400;
 
   TextStyle get title1 => TextStyle(
-        fontFamily: 'Gotham',
+        fontFamily: 'gothamhtf',
         color: textColor,
         fontWeight: FontWeight.bold,
         fontSize: 30,
       );
   TextStyle get title2 => TextStyle(
-        fontFamily: 'Gotham',
+        fontFamily: 'gothamhtf',
         color: textColor,
         fontWeight: FontWeight.w500,
         fontSize: 28,
       );
   TextStyle get title3 => TextStyle(
-        fontFamily: 'Gotham',
+        fontFamily: 'gothamhtf',
         color: textColor,
         fontWeight: FontWeight.w500,
         fontSize: 20,
@@ -58,13 +58,13 @@ abstract class FlutterFlowTheme {
         fontSize: 16,
       );
   TextStyle get bodyText1 => TextStyle(
-        fontFamily: 'Gotham',
+        fontFamily: 'gothamhtf',
         color: grayLight,
         fontWeight: FontWeight.normal,
         fontSize: 14,
       );
   TextStyle get bodyText2 => TextStyle(
-        fontFamily: 'Gotham',
+        fontFamily: 'Dank Mono',
         color: textColor,
         fontWeight: FontWeight.normal,
         fontSize: 14,

@@ -231,7 +231,7 @@ class _BudgetDELETEWidgetState extends State<BudgetDELETEWidget> {
               Text(
                 'Tap above to remove this bude',
                 style: FlutterFlowTheme.of(context).bodyText1.override(
-                      fontFamily: 'Gotham',
+                      fontFamily: 'gothamhtf',
                       color: Color(0x43000000),
                       useGoogleFonts: false,
                     ),

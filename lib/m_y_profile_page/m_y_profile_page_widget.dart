@@ -185,7 +185,7 @@ class _MYProfilePageWidgetState extends State<MYProfilePageWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
-                                      fontFamily: 'Gotham',
+                                      fontFamily: 'gothamhtf',
                                       color: Color(0xB3FFFFFF),
                                       fontWeight: FontWeight.w500,
                                       useGoogleFonts: false,
@@ -200,7 +200,7 @@ class _MYProfilePageWidgetState extends State<MYProfilePageWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
-                                      fontFamily: 'Gotham',
+                                      fontFamily: 'gothamhtf',
                                       color: FlutterFlowTheme.of(context)
                                           .textColor,
                                       fontWeight: FontWeight.w500,

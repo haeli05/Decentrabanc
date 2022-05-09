@@ -120,7 +120,7 @@ class _HomePageAlt1WidgetState extends State<HomePageAlt1Widget>
                                   style: FlutterFlowTheme.of(context)
                                       .title3
                                       .override(
-                                        fontFamily: 'Gotham',
+                                        fontFamily: 'gothamhtf',
                                         color: FlutterFlowTheme.of(context)
                                             .tertiaryColor,
                                         useGoogleFonts: false,
@@ -196,7 +196,7 @@ class _HomePageAlt1WidgetState extends State<HomePageAlt1Widget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
-                                        fontFamily: 'Gotham',
+                                        fontFamily: 'gothamhtf',
                                         color: FlutterFlowTheme.of(context)
                                             .textColor,
                                         useGoogleFonts: false,
@@ -216,7 +216,7 @@ class _HomePageAlt1WidgetState extends State<HomePageAlt1Widget>
                                   style: FlutterFlowTheme.of(context)
                                       .title1
                                       .override(
-                                        fontFamily: 'Gotham',
+                                        fontFamily: 'gothamhtf',
                                         fontSize: 32,
                                         useGoogleFonts: false,
                                       ),
@@ -489,7 +489,7 @@ class _HomePageAlt1WidgetState extends State<HomePageAlt1Widget>
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
-                                            fontFamily: 'Gotham',
+                                            fontFamily: 'gothamhtf',
                                             fontSize: 12,
                                             useGoogleFonts: false,
                                           ),
@@ -598,7 +598,7 @@ class _HomePageAlt1WidgetState extends State<HomePageAlt1Widget>
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
-                                              fontFamily: 'Gotham',
+                                              fontFamily: 'gothamhtf',
                                               fontSize: 12,
                                               useGoogleFonts: false,
                                             ),
@@ -708,7 +708,7 @@ class _HomePageAlt1WidgetState extends State<HomePageAlt1Widget>
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
-                                              fontFamily: 'Gotham',
+                                              fontFamily: 'gothamhtf',
                                               fontSize: 12,
                                               useGoogleFonts: false,
                                             ),

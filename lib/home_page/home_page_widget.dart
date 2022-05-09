@@ -110,7 +110,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .title3
                                             .override(
-                                              fontFamily: 'Gotham',
+                                              fontFamily: 'gothamhtf',
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .primaryColor,
@@ -150,7 +150,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           Text(
                             '\$25,202',
                             style: FlutterFlowTheme.of(context).title1.override(
-                                  fontFamily: 'Gotham',
+                                  fontFamily: 'gothamhtf',
                                   fontSize: 32,
                                   useGoogleFonts: false,
                                 ),
@@ -544,7 +544,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText2
                                         .override(
-                                          fontFamily: 'Gotham',
+                                          fontFamily: 'Dank Mono',
                                           color: FlutterFlowTheme.of(context)
                                               .background,
                                           useGoogleFonts: false,
