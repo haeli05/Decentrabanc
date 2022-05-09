@@ -101,7 +101,7 @@ class _MYCardWidgetState extends State<MYCardWidget>
         backgroundColor: FlutterFlowTheme.of(context).background,
         automaticallyImplyLeading: false,
         title: Text(
-          'My Card',
+          'Banc Account',
           style: FlutterFlowTheme.of(context).title1,
         ),
         actions: [],

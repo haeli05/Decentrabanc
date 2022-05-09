@@ -174,7 +174,9 @@ class _LandingWidgetState extends State<LandingWidget>
                         fit: BoxFit.cover,
                       ).animated([animationsMap['imageOnPageLoadAnimation']]),
                       Column(
-                        mainAxisSize: MainAxisSize.max,
+                        mainAxisSize: MainAxisSize.min,
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Padding(
                             padding:
@@ -259,7 +261,7 @@ class _LandingWidgetState extends State<LandingWidget>
                                           children: [
                                             Padding(
                                               padding: EdgeInsetsDirectional
-                                                  .fromSTEB(10, 0, 0, 0),
+                                                  .fromSTEB(14, 0, 0, 0),
                                               child: Text(
                                                 'from',
                                                 style: FlutterFlowTheme.of(
@@ -297,51 +299,59 @@ class _LandingWidgetState extends State<LandingWidget>
                               ],
                             ),
                           ),
-                        ],
-                      ),
-                      Align(
-                        alignment: AlignmentDirectional(0, 0),
-                        child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(14, 0, 14, 0),
-                          child: Column(
-                            mainAxisSize: MainAxisSize.min,
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            crossAxisAlignment: CrossAxisAlignment.start,
+                          Row(
+                            mainAxisSize: MainAxisSize.max,
                             children: [
-                              Padding(
-                                padding:
-                                    EdgeInsetsDirectional.fromSTEB(0, 98, 0, 0),
-                                child: AutoSizeText(
-                                  'Decentrabanc is building a DeFi bank to connect traditional banking with cross chain DeFi protocols.',
-                                  textAlign: TextAlign.start,
-                                  style: TextStyle(
-                                    fontFamily: 'Dank Mono',
-                                    color: Color(0xFFF0F0F0),
-                                    fontWeight: FontWeight.normal,
-                                    fontSize: 18,
-                                  ),
-                                ),
-                              ),
-                              Padding(
-                                padding:
-                                    EdgeInsetsDirectional.fromSTEB(0, 28, 0, 0),
-                                child: Text(
-                                  'Starting with Anchor Protocol, Maple Finance and AAVE. More coming soon',
-                                  textAlign: TextAlign.start,
-                                  style: FlutterFlowTheme.of(context)
-                                      .bodyText1
-                                      .override(
-                                        fontFamily: 'Dank Mono',
-                                        color: FlutterFlowTheme.of(context)
-                                            .textColor,
-                                        fontSize: 18,
-                                        useGoogleFonts: false,
+                              Align(
+                                alignment: AlignmentDirectional(0, 0),
+                                child: Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      14, 0, 14, 0),
+                                  child: Column(
+                                    mainAxisSize: MainAxisSize.min,
+                                    mainAxisAlignment: MainAxisAlignment.start,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Padding(
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            0, 98, 0, 0),
+                                        child: AutoSizeText(
+                                          'Decentrabanc is building a DeFi bank to connect traditional banking with DeFi protocols.',
+                                          textAlign: TextAlign.start,
+                                          style: TextStyle(
+                                            fontFamily: 'Dank Mono',
+                                            color: Color(0xFFF0F0F0),
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 18,
+                                          ),
+                                        ),
                                       ),
+                                      Padding(
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            0, 28, 0, 0),
+                                        child: Text(
+                                          'Starting with Anchor Protocol, Maple Finance and AAVE. More coming soon',
+                                          textAlign: TextAlign.start,
+                                          style: FlutterFlowTheme.of(context)
+                                              .bodyText1
+                                              .override(
+                                                fontFamily: 'Dank Mono',
+                                                color:
+                                                    FlutterFlowTheme.of(context)
+                                                        .textColor,
+                                                fontSize: 18,
+                                                useGoogleFonts: false,
+                                              ),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
                                 ),
                               ),
                             ],
                           ),
-                        ),
+                        ],
                       ),
                     ],
                   ),
@@ -529,7 +539,7 @@ class _LandingWidgetState extends State<LandingWidget>
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(0, 8, 0, 0),
                                 child: AutoSizeText(
-                                  'Cryptocurrency Rewards',
+                                  'Crypto & NFT Financing',
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
                                       .subtitle1
@@ -546,7 +556,7 @@ class _LandingWidgetState extends State<LandingWidget>
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       8, 4, 8, 0),
                                   child: Text(
-                                    'BTC Card Rewards, Staking Yields and more',
+                                    'Borrow and Lend your favourite assets',
                                     textAlign: TextAlign.center,
                                     style: GoogleFonts.getFont(
                                       'Lexend Deca',
@@ -595,7 +605,7 @@ class _LandingWidgetState extends State<LandingWidget>
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(0, 8, 0, 0),
                                 child: AutoSizeText(
-                                  'Private Securities',
+                                  'Tokenized Securities',
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
                                       .subtitle1
