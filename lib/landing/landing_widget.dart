@@ -60,7 +60,7 @@ class _LandingWidgetState extends State<LandingWidget>
                 width: MediaQuery.of(context).size.width,
                 height: 50,
                 decoration: BoxDecoration(
-                  color: FlutterFlowTheme.of(context).black600,
+                  color: Colors.black,
                   borderRadius: BorderRadius.circular(0),
                   shape: BoxShape.rectangle,
                 ),
