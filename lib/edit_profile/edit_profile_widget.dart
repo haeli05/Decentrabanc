@@ -181,14 +181,14 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                         labelText: 'Your Name',
                         labelStyle:
                             FlutterFlowTheme.of(context).bodyText1.override(
-                                  fontFamily: 'gotham',
+                                  fontFamily: 'Gotham',
                                   color: FlutterFlowTheme.of(context).grayLight,
                                   useGoogleFonts: false,
                                 ),
                         hintText: 'Please enter a valid number...',
                         hintStyle:
                             FlutterFlowTheme.of(context).bodyText1.override(
-                                  fontFamily: 'gotham',
+                                  fontFamily: 'Gotham',
                                   color: Color(0x98FFFFFF),
                                   useGoogleFonts: false,
                                 ),
@@ -212,7 +212,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                             EdgeInsetsDirectional.fromSTEB(20, 24, 20, 24),
                       ),
                       style: FlutterFlowTheme.of(context).bodyText1.override(
-                            fontFamily: 'gotham',
+                            fontFamily: 'Gotham',
                             color: FlutterFlowTheme.of(context).textColor,
                             useGoogleFonts: false,
                           ),
@@ -227,14 +227,14 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                         labelText: 'Email Address',
                         labelStyle:
                             FlutterFlowTheme.of(context).bodyText1.override(
-                                  fontFamily: 'gotham',
+                                  fontFamily: 'Gotham',
                                   color: FlutterFlowTheme.of(context).grayLight,
                                   useGoogleFonts: false,
                                 ),
                         hintText: 'Your email',
                         hintStyle:
                             FlutterFlowTheme.of(context).bodyText1.override(
-                                  fontFamily: 'gotham',
+                                  fontFamily: 'Gotham',
                                   color: Color(0x98FFFFFF),
                                   useGoogleFonts: false,
                                 ),
@@ -258,7 +258,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                             EdgeInsetsDirectional.fromSTEB(20, 24, 20, 24),
                       ),
                       style: FlutterFlowTheme.of(context).bodyText1.override(
-                            fontFamily: 'gotham',
+                            fontFamily: 'Gotham',
                             color: FlutterFlowTheme.of(context).primaryColor,
                             fontWeight: FontWeight.w600,
                             useGoogleFonts: false,
@@ -277,14 +277,14 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                         labelText: 'Your Age',
                         labelStyle:
                             FlutterFlowTheme.of(context).bodyText1.override(
-                                  fontFamily: 'gotham',
+                                  fontFamily: 'Gotham',
                                   color: FlutterFlowTheme.of(context).grayLight,
                                   useGoogleFonts: false,
                                 ),
                         hintText: 'i.e. 34',
                         hintStyle:
                             FlutterFlowTheme.of(context).bodyText1.override(
-                                  fontFamily: 'gotham',
+                                  fontFamily: 'Gotham',
                                   color: Color(0x98FFFFFF),
                                   useGoogleFonts: false,
                                 ),
@@ -308,7 +308,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                             EdgeInsetsDirectional.fromSTEB(20, 24, 20, 24),
                       ),
                       style: FlutterFlowTheme.of(context).bodyText1.override(
-                            fontFamily: 'gotham',
+                            fontFamily: 'Gotham',
                             color: FlutterFlowTheme.of(context).textColor,
                             useGoogleFonts: false,
                           ),
@@ -326,13 +326,13 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                         labelText: 'Your Title',
                         labelStyle:
                             FlutterFlowTheme.of(context).bodyText1.override(
-                                  fontFamily: 'gotham',
+                                  fontFamily: 'Gotham',
                                   color: FlutterFlowTheme.of(context).grayLight,
                                   useGoogleFonts: false,
                                 ),
                         hintStyle:
                             FlutterFlowTheme.of(context).bodyText1.override(
-                                  fontFamily: 'gotham',
+                                  fontFamily: 'Gotham',
                                   color: Color(0x98FFFFFF),
                                   useGoogleFonts: false,
                                 ),
@@ -356,7 +356,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                             EdgeInsetsDirectional.fromSTEB(20, 24, 20, 24),
                       ),
                       style: FlutterFlowTheme.of(context).bodyText1.override(
-                            fontFamily: 'gotham',
+                            fontFamily: 'Gotham',
                             color: FlutterFlowTheme.of(context).textColor,
                             useGoogleFonts: false,
                           ),

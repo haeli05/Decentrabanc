@@ -59,6 +59,7 @@ class _TransferCompleteWidgetState extends State<TransferCompleteWidget> {
                       style: FlutterFlowTheme.of(context).bodyText2.override(
                             fontFamily: 'Gotham',
                             color: Color(0xB3FFFFFF),
+                            useGoogleFonts: false,
                           ),
                     ),
                   ),

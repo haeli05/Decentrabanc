@@ -106,6 +106,7 @@ class _RequestFundsWidgetState extends State<RequestFundsWidget> {
                                 fontFamily: 'Gotham',
                                 color: FlutterFlowTheme.of(context).grayLight,
                                 fontWeight: FontWeight.w300,
+                                useGoogleFonts: false,
                               ),
                           hintText: '\$ Amount',
                           hintStyle: FlutterFlowTheme.of(context)
@@ -114,6 +115,7 @@ class _RequestFundsWidgetState extends State<RequestFundsWidget> {
                                 fontFamily: 'Gotham',
                                 color: FlutterFlowTheme.of(context).grayLight,
                                 fontWeight: FontWeight.w300,
+                                useGoogleFonts: false,
                               ),
                           enabledBorder: UnderlineInputBorder(
                             borderSide: BorderSide(
@@ -149,7 +151,7 @@ class _RequestFundsWidgetState extends State<RequestFundsWidget> {
                         height: 60,
                         textStyle:
                             FlutterFlowTheme.of(context).bodyText1.override(
-                                  fontFamily: 'gotham',
+                                  fontFamily: 'Gotham',
                                   color: FlutterFlowTheme.of(context).textColor,
                                   useGoogleFonts: false,
                                 ),
@@ -246,7 +248,7 @@ class _RequestFundsWidgetState extends State<RequestFundsWidget> {
           Text(
             'Tap above to complete request',
             style: FlutterFlowTheme.of(context).bodyText1.override(
-                  fontFamily: 'gotham',
+                  fontFamily: 'Gotham',
                   color: Color(0x43000000),
                   useGoogleFonts: false,
                 ),

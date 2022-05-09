@@ -143,6 +143,7 @@ class _CreateBudgetWidgetState extends State<CreateBudgetWidget>
                                     color:
                                         FlutterFlowTheme.of(context).grayLight,
                                     fontWeight: FontWeight.w300,
+                                    useGoogleFonts: false,
                                   ),
                               hintText: 'Amount',
                               hintStyle: FlutterFlowTheme.of(context)
@@ -152,6 +153,7 @@ class _CreateBudgetWidgetState extends State<CreateBudgetWidget>
                                     color:
                                         FlutterFlowTheme.of(context).grayLight,
                                     fontWeight: FontWeight.w300,
+                                    useGoogleFonts: false,
                                   ),
                               enabledBorder: UnderlineInputBorder(
                                 borderSide: BorderSide(
@@ -249,7 +251,7 @@ class _CreateBudgetWidgetState extends State<CreateBudgetWidget>
                           style: FlutterFlowTheme.of(context)
                               .bodyText1
                               .override(
-                                fontFamily: 'gotham',
+                                fontFamily: 'Gotham',
                                 color: FlutterFlowTheme.of(context).textColor,
                                 useGoogleFonts: false,
                               ),
@@ -348,7 +350,7 @@ class _CreateBudgetWidgetState extends State<CreateBudgetWidget>
             Text(
               'Tap above to complete request',
               style: FlutterFlowTheme.of(context).bodyText1.override(
-                    fontFamily: 'gotham',
+                    fontFamily: 'Gotham',
                     color: Color(0x43000000),
                     useGoogleFonts: false,
                   ),

@@ -102,14 +102,14 @@ class _ChangePasswordWidgetState extends State<ChangePasswordWidget> {
                       labelText: 'Email Address',
                       labelStyle:
                           FlutterFlowTheme.of(context).bodyText1.override(
-                                fontFamily: 'gotham',
+                                fontFamily: 'Gotham',
                                 color: Color(0x98FFFFFF),
                                 useGoogleFonts: false,
                               ),
                       hintText: 'Enter your email...',
                       hintStyle:
                           FlutterFlowTheme.of(context).bodyText1.override(
-                                fontFamily: 'gotham',
+                                fontFamily: 'Gotham',
                                 color: Color(0x98FFFFFF),
                                 useGoogleFonts: false,
                               ),
@@ -133,7 +133,7 @@ class _ChangePasswordWidgetState extends State<ChangePasswordWidget> {
                           EdgeInsetsDirectional.fromSTEB(20, 24, 20, 24),
                     ),
                     style: FlutterFlowTheme.of(context).bodyText1.override(
-                          fontFamily: 'gotham',
+                          fontFamily: 'Gotham',
                           color: FlutterFlowTheme.of(context).tertiaryColor,
                           useGoogleFonts: false,
                         ),

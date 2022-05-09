@@ -138,6 +138,7 @@ class _BudgetDetailsWidgetState extends State<BudgetDetailsWidget> {
                                       fontFamily: 'Gotham',
                                       fontSize: 36,
                                       fontWeight: FontWeight.normal,
+                                      useGoogleFonts: false,
                                     ),
                               ),
                             ),
@@ -149,7 +150,7 @@ class _BudgetDetailsWidgetState extends State<BudgetDetailsWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
-                                      fontFamily: 'gotham',
+                                      fontFamily: 'Gotham',
                                       color: Color(0xB3FFFFFF),
                                       useGoogleFonts: false,
                                     ),
@@ -186,6 +187,7 @@ class _BudgetDetailsWidgetState extends State<BudgetDetailsWidget> {
                                           fontFamily: 'Gotham',
                                           color: Color(0xB3FFFFFF),
                                           fontWeight: FontWeight.w300,
+                                          useGoogleFonts: false,
                                         ),
                                   ),
                                 ),
@@ -420,7 +422,7 @@ class _BudgetDetailsWidgetState extends State<BudgetDetailsWidget> {
                                                             context)
                                                         .bodyText1
                                                         .override(
-                                                          fontFamily: 'gotham',
+                                                          fontFamily: 'Gotham',
                                                           fontSize: 12,
                                                           useGoogleFonts: false,
                                                         ),

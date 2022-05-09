@@ -204,7 +204,7 @@ class _MYCardWidgetState extends State<MYCardWidget>
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
-                                          fontFamily: 'gotham',
+                                          fontFamily: 'Gotham',
                                           color: FlutterFlowTheme.of(context)
                                               .textColor,
                                           useGoogleFonts: false,
@@ -226,6 +226,7 @@ class _MYCardWidgetState extends State<MYCardWidget>
                                         .override(
                                           fontFamily: 'Gotham',
                                           fontSize: 32,
+                                          useGoogleFonts: false,
                                         ),
                                   ),
                                 ],
@@ -306,6 +307,7 @@ class _MYCardWidgetState extends State<MYCardWidget>
                                       fontFamily: 'Gotham',
                                       color: FlutterFlowTheme.of(context)
                                           .tertiaryColor,
+                                      useGoogleFonts: false,
                                     ),
                               ),
                             ),
@@ -326,7 +328,7 @@ class _MYCardWidgetState extends State<MYCardWidget>
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
-                                          fontFamily: 'gotham',
+                                          fontFamily: 'Gotham',
                                           color: FlutterFlowTheme.of(context)
                                               .tertiaryColor,
                                           useGoogleFonts: false,
@@ -377,6 +379,7 @@ class _MYCardWidgetState extends State<MYCardWidget>
                                       fontFamily: 'Gotham',
                                       color:
                                           FlutterFlowTheme.of(context).errorRed,
+                                      useGoogleFonts: false,
                                     ),
                               ),
                             ),
@@ -397,7 +400,7 @@ class _MYCardWidgetState extends State<MYCardWidget>
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
-                                          fontFamily: 'gotham',
+                                          fontFamily: 'Gotham',
                                           color: FlutterFlowTheme.of(context)
                                               .errorRed,
                                           useGoogleFonts: false,
@@ -740,7 +743,7 @@ class _MYCardWidgetState extends State<MYCardWidget>
                                                           context)
                                                       .bodyText1
                                                       .override(
-                                                        fontFamily: 'gotham',
+                                                        fontFamily: 'Gotham',
                                                         fontSize: 12,
                                                         useGoogleFonts: false,
                                                       ),

@@ -204,6 +204,7 @@ class _TransactionEDITWidgetState extends State<TransactionEDITWidget>
                                       color: FlutterFlowTheme.of(context)
                                           .grayLight,
                                       fontWeight: FontWeight.w300,
+                                      useGoogleFonts: false,
                                     ),
                                 hintText: 'Amount',
                                 hintStyle: FlutterFlowTheme.of(context)
@@ -213,6 +214,7 @@ class _TransactionEDITWidgetState extends State<TransactionEDITWidget>
                                       color: FlutterFlowTheme.of(context)
                                           .grayLight,
                                       fontWeight: FontWeight.w300,
+                                      useGoogleFonts: false,
                                     ),
                                 enabledBorder: UnderlineInputBorder(
                                   borderSide: BorderSide(
@@ -337,7 +339,7 @@ class _TransactionEDITWidgetState extends State<TransactionEDITWidget>
                                   textStyle: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
-                                        fontFamily: 'gotham',
+                                        fontFamily: 'Gotham',
                                         color: FlutterFlowTheme.of(context)
                                             .textColor,
                                         useGoogleFonts: false,
@@ -402,7 +404,7 @@ class _TransactionEDITWidgetState extends State<TransactionEDITWidget>
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
-                                    fontFamily: 'gotham',
+                                    fontFamily: 'Gotham',
                                     color:
                                         FlutterFlowTheme.of(context).textColor,
                                     useGoogleFonts: false,
@@ -502,7 +504,7 @@ class _TransactionEDITWidgetState extends State<TransactionEDITWidget>
                 Text(
                   'Tap above to save your changes.',
                   style: FlutterFlowTheme.of(context).bodyText1.override(
-                        fontFamily: 'gotham',
+                        fontFamily: 'Gotham',
                         color: Color(0x43000000),
                         useGoogleFonts: false,
                       ),

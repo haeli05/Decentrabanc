@@ -62,7 +62,7 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
-                                      fontFamily: 'gotham',
+                                      fontFamily: 'Gotham',
                                       color: FlutterFlowTheme.of(context)
                                           .textColor,
                                       fontSize: 16,
@@ -102,7 +102,7 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
-                                            fontFamily: 'gotham',
+                                            fontFamily: 'Gotham',
                                             color: FlutterFlowTheme.of(context)
                                                 .textColor,
                                             useGoogleFonts: false,
@@ -125,7 +125,7 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
-                                          fontFamily: 'gotham',
+                                          fontFamily: 'Gotham',
                                           color: FlutterFlowTheme.of(context)
                                               .textColor,
                                           useGoogleFonts: false,
@@ -179,6 +179,7 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .primaryText,
+                                              useGoogleFonts: false,
                                             ),
                                       ),
                                     ),
@@ -218,7 +219,7 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodyText1
                                               .override(
-                                                fontFamily: 'gotham',
+                                                fontFamily: 'Gotham',
                                                 color:
                                                     FlutterFlowTheme.of(context)
                                                         .primaryText,
@@ -266,7 +267,7 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1
                                                 .override(
-                                                  fontFamily: 'gotham',
+                                                  fontFamily: 'Gotham',
                                                   color: FlutterFlowTheme.of(
                                                           context)
                                                       .primaryText,
@@ -319,7 +320,7 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1
                                                       .override(
-                                                        fontFamily: 'gotham',
+                                                        fontFamily: 'Gotham',
                                                         color:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -368,7 +369,7 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1
                                                       .override(
-                                                        fontFamily: 'gotham',
+                                                        fontFamily: 'Gotham',
                                                         color:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -417,7 +418,7 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1
                                                       .override(
-                                                        fontFamily: 'gotham',
+                                                        fontFamily: 'Gotham',
                                                         color:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -466,7 +467,7 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1
                                                       .override(
-                                                        fontFamily: 'gotham',
+                                                        fontFamily: 'Gotham',
                                                         color:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -519,7 +520,7 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1
                                                       .override(
-                                                        fontFamily: 'gotham',
+                                                        fontFamily: 'Gotham',
                                                         color:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -579,7 +580,7 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1
                                                       .override(
-                                                        fontFamily: 'gotham',
+                                                        fontFamily: 'Gotham',
                                                         color:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -628,7 +629,7 @@ class _LitepaperWidgetState extends State<LitepaperWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1
                                                       .override(
-                                                        fontFamily: 'gotham',
+                                                        fontFamily: 'Gotham',
                                                         color:
                                                             FlutterFlowTheme.of(
                                                                     context)

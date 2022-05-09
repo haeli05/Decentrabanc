@@ -114,6 +114,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                               color:
                                                   FlutterFlowTheme.of(context)
                                                       .primaryColor,
+                                              useGoogleFonts: false,
                                             ),
                                       ),
                                     ),
@@ -151,6 +152,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             style: FlutterFlowTheme.of(context).title1.override(
                                   fontFamily: 'Gotham',
                                   fontSize: 32,
+                                  useGoogleFonts: false,
                                 ),
                           ),
                         ],
@@ -545,6 +547,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           fontFamily: 'Gotham',
                                           color: FlutterFlowTheme.of(context)
                                               .background,
+                                          useGoogleFonts: false,
                                         ),
                                   ),
                                 ],

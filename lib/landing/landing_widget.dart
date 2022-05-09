@@ -90,7 +90,7 @@ class _LandingWidgetState extends State<LandingWidget>
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
-                                    fontFamily: 'gotham',
+                                    fontFamily: 'Gotham',
                                     color:
                                         FlutterFlowTheme.of(context).textColor,
                                     fontSize: 16,
@@ -130,7 +130,7 @@ class _LandingWidgetState extends State<LandingWidget>
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
-                                          fontFamily: 'gotham',
+                                          fontFamily: 'Gotham',
                                           color: FlutterFlowTheme.of(context)
                                               .textColor,
                                           useGoogleFonts: false,
@@ -153,7 +153,7 @@ class _LandingWidgetState extends State<LandingWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
-                                        fontFamily: 'gotham',
+                                        fontFamily: 'Gotham',
                                         color: FlutterFlowTheme.of(context)
                                             .textColor,
                                         useGoogleFonts: false,
@@ -223,6 +223,7 @@ class _LandingWidgetState extends State<LandingWidget>
                                                 .override(
                                                   fontFamily: 'Gotham',
                                                   color: Color(0xFFF0F0F0),
+                                                  useGoogleFonts: false,
                                                 ),
                                           ),
                                         ],
@@ -246,6 +247,7 @@ class _LandingWidgetState extends State<LandingWidget>
                                                                 .textColor,
                                                         fontWeight:
                                                             FontWeight.normal,
+                                                        useGoogleFonts: false,
                                                       ),
                                             ),
                                           ],
@@ -277,6 +279,7 @@ class _LandingWidgetState extends State<LandingWidget>
                                                         fontSize: 27,
                                                         fontWeight:
                                                             FontWeight.bold,
+                                                        useGoogleFonts: false,
                                                       ),
                                             ),
                                           ],
@@ -296,7 +299,7 @@ class _LandingWidgetState extends State<LandingWidget>
                           padding: EdgeInsetsDirectional.fromSTEB(14, 0, 14, 0),
                           child: Column(
                             mainAxisSize: MainAxisSize.min,
-                            mainAxisAlignment: MainAxisAlignment.start,
+                            mainAxisAlignment: MainAxisAlignment.center,
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Padding(
